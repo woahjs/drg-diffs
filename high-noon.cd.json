@@ -1,0 +1,226 @@
+{
+    "Name": "High Noon",
+    "Description": "This space rig ain't big enough for two dwarves",
+    "MaxActiveCritters": 0,
+    "MaxActiveSwarmers": 0,
+    "MaxActiveEnemies": 0,
+    "ResupplyCost": 69420,
+    "StartingNitra": 1337,
+    "ExtraLargeEnemyDamageResistance": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "ExtraLargeEnemyDamageResistanceB": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "ExtraLargeEnemyDamageResistanceC": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "ExtraLargeEnemyDamageResistanceD": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "EnemyDamageResistance": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "SmallEnemyDamageResistance": [
+      0.7,
+      0.7,
+      0.7,
+      0.7
+    ],
+    "EnemyDamageModifier": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "EnemyCountModifier": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "EncounterDifficulty": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 50,
+          "max": 150
+        }
+      },
+      {
+        "weight": 6,
+        "range": {
+          "min": 250,
+          "max": 350
+        }
+      },
+      {
+        "weight": 1,
+        "range": {
+          "min": 400,
+          "max": 500
+        }
+      }
+    ],
+    "StationaryDifficulty": [
+      {
+        "weight": 0,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    ],
+    "EnemyWaveInterval": [
+      {
+        "weight": 8.5,
+        "range": {
+          "min": 0,
+          "max": 5
+        }
+      }
+    ],
+    "EnemyNormalWaveInterval": [
+      {
+        "weight": 2,
+        "range": {
+          "min": 0,
+          "max": 5
+        }
+      },
+      {
+        "weight": 4,
+        "range": {
+          "min": 300,
+          "max": 450
+        }
+      }
+    ],
+    "EnemyNormalWaveDifficulty": [
+      {
+        "weight": 1,
+        "range": {
+          "min": 100,
+          "max": 200
+        }
+      }
+    ],
+    "EnemyDiversity": [
+      {
+        "weight": 0,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      },
+      {
+        "weight": 0,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    ],
+    "StationaryEnemyDiversity": [
+      {
+        "weight": 0,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    ],
+    "VeteranNormal": [
+      {
+        "weight": 0,
+        "range": {
+          "min": 0,
+          "max": 0
+        }
+      }
+    ],
+    "VeteranLarge": [],
+    "DisruptiveEnemyPoolCount": {
+      "min": 60,
+      "max": 120
+    },
+    "MinPoolSize": 0,
+    "MaxActiveElites": 0,
+    "EnvironmentalDamageModifier": 0.7,
+    "PointExtractionScalar": 0.7,
+    "HazardBonus": 0.25,
+    "FriendlyFireModifier": 50000,
+    "WaveStartDelayScale": 1,
+    "SpeedModifier": 1.6,
+    "AttackCooldownModifier": 0.8,
+    "ProjectileSpeedModifier": 1,
+    "HealthRegenerationMax": 1000,
+    "ReviveHealthRatio": 1000,
+    "EliteCooldown": 0,
+    "EnemyDescriptors": {},
+    "EnemyPool": {
+      "clear": false,
+      "add": [],
+      "remove": []
+    },
+    "CommonEnemies": {
+      "clear": false,
+      "add": [],
+      "remove": []
+    },
+    "SpecialEnemies": {
+      "clear": false,
+      "add": [],
+      "remove": []
+    },
+    "DisruptiveEnemies": {
+      "clear": false,
+      "add": [],
+      "remove": []
+    },
+    "StationaryEnemies": {
+      "clear": false,
+      "add": [],
+      "remove": []
+    },
+    "SeasonalEvents": [
+      "SE_ProspectorDrone",
+      "SE_ProspectorDataDeposit",
+      "SE_RivalBomb"
+    ],
+    "EscortMule": {
+      "FriendlyFireModifier": 50000,
+      "BigHitDamageModifier": 0.5,
+      "BigHitDamageReductionThreshold": 6,
+      "NeutralDamageModifier": 0.1
+    }
+  }
